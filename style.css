@@ -1,0 +1,114 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    font-family: cursive;
+}
+
+/* header starts */
+header{
+    background-image: url(images/bg-edu2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar-brand img{
+    width: 150px;
+}
+.navbar{
+    background-color: white;
+    
+}
+.nav-link{
+    color: gray;
+    margin: 5px 2px;
+    border-radius: 6px;
+    transition: .4s;
+}
+.nav-link:hover{
+    color: black;
+    background-color: gray;
+    transform: scale(1.1);
+}
+/* header starts */
+.banner-container{
+    height: 100vh;
+}
+/* features starts */
+#features{
+    background-color: #05595B;
+    padding: 5% 10%;
+}
+.features-col{
+    padding: 15px 15px;
+    margin:8px 0;
+    border:2px solid #C5D8A4 ;
+    border-radius: 5px;
+    transition: .4s;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 4px 5px black;
+}
+.icon-style{
+    color: white;
+    background: #ce7a0c;
+    padding: 15px;
+    margin-bottom: 5px;
+    
+}
+/* features ends */
+/* faculty starts */
+.faculty{
+    padding: 5% 10%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+/* faculty ends */
+/* courses starts */
+#courses{
+    margin-top: 10px;
+    background-color: rgb(245, 241, 241);
+}
+.button{
+    background-color: #09b0b3;
+    border-radius: 5px;
+    transition: .4s;
+    color: white;
+}
+.button:hover{
+    background-color: rgb(177, 176, 176);
+    color: black;
+    transform: scale(1.1);
+}
+
+/* courses ends */
+/* feedback starts */
+#feedback{
+    padding: 4% 10%;
+    background-color: #05595B
+}
+/* feedback ends */
+/* footer starts */
+.footer{
+    background-color: #05595B;
+}
+.footer ul{
+    list-style-type: none;
+    color: white;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font: 600;
+    margin: 5px 5px;
+
+}
+.footer li{
+    margin-bottom: 5px;
+}
+/* footer ends here */
